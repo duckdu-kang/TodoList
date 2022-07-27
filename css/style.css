@@ -1,0 +1,58 @@
+.hidden{
+    display: none;
+}
+body{
+    position: relative;
+    margin: 0;
+    color: aliceblue;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+#login-form{
+    position: absolute;
+    top: 40%;
+}
+#clock{
+    position: absolute;
+    left: 2%; top: 0;
+}
+#todo-list{
+    list-style: none;
+    padding-left: 0;
+}
+#todo-list li button{
+    font-weight: 600;
+}
+#todo-form input{
+    width: 200px;
+    height: 20px;
+}
+#quote{
+    position: absolute;
+    bottom: 5%;
+    left: 0; right: 0;
+}
+#quote :nth-child(1) {
+    font-weight: bold;
+    padding-right: 10px;
+}
+#weather{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+img{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
